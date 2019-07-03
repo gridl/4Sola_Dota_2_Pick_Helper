@@ -151,11 +151,11 @@ for t in tr:
     r_45k = td[9]['data-value']
     r_50k = td[11]['data-value']
 
-    r_02k = float(r_02k)
-    r_23k = float(r_23k)
-    r_34k = float(r_34k)
-    r_45k = float(r_45k)
-    r_50k = float(r_50k)
+    r_02k = float(r_02k) - 50
+    r_23k = float(r_23k) - 50
+    r_34k = float(r_34k) - 50
+    r_45k = float(r_45k) - 50
+    r_50k = float(r_50k) - 50
 
     r_02k = round(r_02k, 2)
     r_23k = round(r_23k, 2)
